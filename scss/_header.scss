@@ -1,0 +1,13 @@
+.logo {
+  width: 150px;
+}
+
+.headerButton {
+  color: $lightPink;
+  border-color: $lightPink;
+}
+
+.headerButton:hover {
+  background-color: $lightPink;
+  color: white;
+}
