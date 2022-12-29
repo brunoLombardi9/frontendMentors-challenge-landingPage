@@ -2,4 +2,22 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "_header.scss";
 @import "_firstSection.scss";
-@import "_screenMockupsSection.scss"
+@import "_screenMockupsSection.scss";
+@import "_illustrationsSection.scss";
+@import "_footer.scss";
+
+// -----------generals
+
+.getStartedButtons {
+  max-width: 75%;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2,
+h3 {
+  color: $darkCyan;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}

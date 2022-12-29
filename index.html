@@ -14,8 +14,10 @@
     <title>Document</title>
   </head>
   <body class="d-flex justify-content-center container-fluid flex-column">
-    <header class="nav d-flex justify-content-between align-items-center m-5 ">
-      <a href="">
+    <header
+      class="nav d-flex flex-row justify-content-between align-items-center m-4 pt-3"
+    >
+      <a href="/">
         <img src="images/logo.svg" alt="logo" class="logo" />
       </a>
       <button class="btn rounded-pill px-4 headerButton">Try it free</button>
@@ -31,45 +33,127 @@
         genuine discussion.
       </p>
 
-      <button class="btn btn-primary rounded-pill mx-auto px-5 text-white">
+      <button
+        class="btn btn-primary rounded-pill mx-auto px-5 text-white getStartedButtons"
+      >
         Get Started For Free
       </button>
     </section>
 
     <section
-      class="d-flex flex-column align-items-center mt-5 screenMockupsSection"
+      class="container-fluid d-flex flex-column align-items-center mt-5 screenMockupsSection"
     >
       <img src="images/screen-mockups.svg" class="screenMockupHero" alt="" />
 
-      <div class="container-fluid">
-        <div class="row justify-content-center align-items-center gap-5">
-          <div class="col-md-4 col-sm-8">
-            <div class="d-flex justify-content-center flex-column w-75 mx-auto">
-              <img
-                src="images/icon-communities.svg"
-                class="mr-5 screenMockupsIcons"
-                alt=""
-              />
-              <p class="text-center">1.4K+</p>
-              <h2 class="text-center">Communities Formed</h2>
-            </div>
+      <div class="row justify-content-center align-items-center gap-5">
+        <div class="col-md-4 col-sm-8">
+          <div class="d-flex justify-content-center flex-column w-75 mx-auto">
+            <img
+              src="images/icon-communities.svg"
+              class="mr-5 screenMockupsIcons"
+              alt=""
+            />
+            <p class="text-center">1.4K+</p>
+            <h2 class="text-center">Communities Formed</h2>
           </div>
+        </div>
 
-          <div class="col-md-4 col-sm-8">
-            <div class="d-flex justify-content-center flex-column w-75 mx-auto">
-              <img
-                src="images/icon-messages.svg"
-                class="screenMockupsIcons"
-                alt=""
-              />
-              <p class="text-center">2.7m+</p>
-              <h2 class="text-center">Message Sent</h2>
-            </div>
+        <div class="col-md-4 col-sm-8">
+          <div class="d-flex justify-content-center flex-column w-75 mx-auto">
+            <img
+              src="images/icon-messages.svg"
+              class="screenMockupsIcons"
+              alt=""
+            />
+            <p class="text-center">2.7m+</p>
+            <h2 class="text-center">Message Sent</h2>
           </div>
         </div>
       </div>
     </section>
 
+    <section
+      class="illustationsSection container-fluid d-flex justify-content-center flex-column mt-5 pt-5 pb-5 gap-5"
+    >
+      <div class="row">
+        <div
+          class="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-center">Grow Together</h2>
+          <p class="text-center">
+            Generate meaningful discussions with your audience and buid a
+            strong, loyal community. Think of the insightful conversations you
+            miss out with a feedback form.
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="images/illustration-grow-together.svg" alt="" />
+        </div>
+      </div>
 
+      <div class="row flex-column-reverse flex-md-row">
+        <div class="col-md-6 col-sm-12">
+          <img src="images/illustration-flowing-conversation.svg" alt="" />
+        </div>
+
+        <div
+          class="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-center">Flowing Conversations</h2>
+          <p class="text-center">
+            You wouldn´t paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div
+          class="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-center">Your Users</h2>
+          <p class="text-center">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="images/illustration-your-users.svg" alt="" />
+        </div>
+      </div>
+
+      <h3 class="text-center mt-5">Ready To Build Your Community?</h3>
+      <button
+        class="btn btn-primary rounded-pill mx-auto px-5 text-white getStartedButtons"
+      >
+        Get Started For Free
+      </button>
+    </section>
+
+    <footer class="container-fluid d-flex justify-content-center pb-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12"></div>
+
+        <div class="col-md-6 col-sm-12">
+          <div class="">
+            <h3>Newsletter</h3>
+            <p>
+              To recieve tips on how to grow your community, sign up to our
+              weekly newsletter. We'll never send you spam or pass on your email
+              address
+            </p>
+          </div>
+
+          <div class="row flex-column flex-md-row">
+            <input type="text" class="form-control" />
+            <button class="btn btn-primary text-white px-4 w-50 ms-auto mt-3">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

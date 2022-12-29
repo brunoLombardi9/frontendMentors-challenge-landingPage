@@ -10788,11 +10788,6 @@ textarea.form-control-lg {
   color: hsl(192deg, 100%, 9%);
 }
 
-.firstSection button {
-  max-width: 70%;
-  font-weight: 600;
-}
-
 .firstSection p {
   font-family: "Open Sans", sans-serif;
   color: hsl(192deg, 100%, 9%);
@@ -10816,6 +10811,30 @@ textarea.form-control-lg {
 
 .screenMockupsIcons {
   width: 40px;
+}
+
+.illustationsSection img {
+  width: 100%;
+}
+
+.illustationsSection p {
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.getStartedButtons {
+  max-width: 75%;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2, .h2,
+h3,
+.h3 {
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
