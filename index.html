@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
-  <body class="d-flex justify-content-center container-fluid flex-column">
+  <body class="d-flex justify-content-center flex-column">
     <header
       class="nav d-flex flex-row justify-content-between align-items-center m-4 pt-3"
     >
@@ -126,31 +126,58 @@
 
       <h3 class="text-center mt-5">Ready To Build Your Community?</h3>
       <button
-        class="btn btn-primary rounded-pill mx-auto px-5 text-white getStartedButtons"
+        class="btn btn-primary rounded-pill mx-auto px-5 text-white getStartedButtons w-auto"
       >
         Get Started For Free
       </button>
     </section>
 
-    <footer class="container-fluid d-flex justify-content-center pb-5">
-      <div class="row">
-        <div class="col-md-6 col-sm-12"></div>
+    <footer
+      class="container-fluid d-flex justify-content-center pb-5 bg-secondary gap-2"
+    >
+      <div class="row mt-5 flex-column-reverse flex-md-row">
+        <div class="col-md-6 col-sm-12 pt-3 pb-3 mt-3 mb-3">
+          <a href="index.html" class="d-flex gap-1">
+            <img src="images/icon-messages.svg" class="logoFooter" alt="" />
+            <h3 class="mb-auto">Huddle</h3>
+          </a>
 
-        <div class="col-md-6 col-sm-12">
-          <div class="">
-            <h3>Newsletter</h3>
-            <p>
-              To recieve tips on how to grow your community, sign up to our
-              weekly newsletter. We'll never send you spam or pass on your email
-              address
-            </p>
-          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eius
+            tempora unde sunt molestias libero blanditiis fuga ea tempore
+            molestiae nobis.
+          </p>
 
-          <div class="row flex-column flex-md-row">
-            <input type="text" class="form-control" />
-            <button class="btn btn-primary text-white px-4 w-50 ms-auto mt-3">
-              Subscribe
-            </button>
+          <a href="https://wa.me/+1-543-123-4567">
+            <div class="d-flex gap-3">
+              <img src="images/icon-phone.svg" class="footerIcons" alt="" />
+              <p class="mb-auto">Phone: +1-543-123-4567</p>
+            </div>
+          </a>
+
+          <a href="mailto:randomemail@huddle.com">
+            <div class="d-flex gap-3">
+              <img src="images/icon-email.svg" class="footerIcons" alt="" />
+              <p class="mb-auto">Email: example@huddle.com</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-sm-12 pt-3 pb-3">
+          <h3>Newsletter</h3>
+          <p>
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We'll never send you spam or pass on your email address
+          </p>
+
+          <div class="row gap-2">
+            <div class="col-10 col-md-7">
+              <input type="text" class="form-control" />
+            </div>
+
+            <div class="col-3 d-flex">
+              <button class="btn btn-primary text-white px-5">Subscribe</button>
+            </div>
           </div>
         </div>
       </div>
