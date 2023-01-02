@@ -10822,6 +10822,10 @@ textarea.form-control-lg {
   font-family: "Open Sans", sans-serif;
 }
 
+.illusBackground {
+  background-color: hsl(207deg, 100%, 98%);
+}
+
 .logoFooter {
   width: 25px;
   height: 25px;
@@ -10865,6 +10869,7 @@ h3,
 
 a {
   text-decoration: none;
+  width: fit-content;
 }
 
 /*# sourceMappingURL=styles.css.map */
