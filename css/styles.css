@@ -10852,6 +10852,10 @@ a svg {
   margin-right: 20px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .getStartedButtons {
   max-width: 75%;
   font-weight: 600;
