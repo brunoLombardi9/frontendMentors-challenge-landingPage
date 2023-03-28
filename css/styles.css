@@ -10813,10 +10813,6 @@ textarea.form-control-lg {
   width: 40px;
 }
 
-.illustationsSection img {
-  width: 100%;
-}
-
 .illustationsSection p {
   color: hsl(192deg, 100%, 9%);
   font-family: "Open Sans", sans-serif;
@@ -10850,10 +10846,6 @@ a svg {
   height: 25px;
   color: white;
   margin-right: 20px;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .getStartedButtons {
